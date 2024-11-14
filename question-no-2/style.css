@@ -7,9 +7,9 @@ body {
   margin: 0;
   background-color: #f4f4f9;
 }
-.form-container {
+.content-container {
   width: 100%;
-  max-width: 400px;
+  max-width: 600px;
   background: #fff;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -19,25 +19,17 @@ h2 {
   text-align: center;
   color: #333;
 }
-.form-group {
-  margin-bottom: 15px;
-}
-label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-}
-input[type="text"],
-input[type="email"],
-input[type="password"] {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+.content-summary,
+.content-full {
   font-size: 1em;
+  color: #333;
+}
+.content-full {
+  display: none; /* Hide full content initially */
 }
 button {
-  width: 100%;
+  margin: 10px 150px;
+  width: 50%;
   padding: 10px;
   background-color: #5cb85c;
   color: white;
@@ -49,9 +41,4 @@ button {
 }
 button:hover {
   background-color: #4cae4c;
-}
-#display-data {
-  margin-top: 20px;
-  font-size: 1.1em;
-  color: #333;
 }
